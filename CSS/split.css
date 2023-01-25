@@ -1,0 +1,119 @@
+/* the following is the code to style the contents of the workout page of a digital fitness journal */
+
+
+/* here we set the parameters to which the unit 'rem' should be relative to */
+\:root{
+    font-size: 10px;
+}
+
+/* here we style the background of the page */
+body{
+    background-image:url(background.png);
+    background-color: #E3F2FD;
+}
+
+/* the navigation bar is rearranged and styled to be centre-aligned */
+.navBar{
+    background-color: #0E0E52;
+    overflow: hidden;   
+    height: 10vh;
+    font-family: "Murecho", Arial, Helvetica, sans-serif;
+}
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.navBar a:hover {
+    background-color: #E4572E;
+    color: white;
+}
+#home{
+    margin-left: 30vw;
+}
+
+
+/* heading is styled here */
+h1{
+    font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color:#E4572E;
+    text-align: center;
+}
+
+/* the workout table is set up and styled here */
+.workoutTable{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    text-align:center;
+    width: 70rem;
+    margin-top: 3rem;
+}
+.component{
+    border-style:solid;
+    border-width: 0.05rem;
+    border-color: #0E0E52;
+    padding: 3vh 3vw;
+    background-color: white;
+    font-family: "Murecho", Arial, Helvetica, sans-serif;
+
+}
+#monday{
+    grid-column: 1;
+    grid-row:1;
+    margin-left: 6rem;
+}
+#quads{
+    margin-left: 6rem;
+}
+#tuesday{
+    grid-column: 2;
+    grid-row:1;
+}
+#wednesday{
+    grid-column: 3;
+    grid-row:1;
+}
+#thursday{
+    grid-column: 4;
+    grid-row:1;
+}
+#friday{
+    grid-column: 5;
+    grid-row:1;
+}
+#saturday{
+    grid-column: 6;
+    grid-row:1;
+}
+#sunday{
+    grid-column: 7;
+    grid-row:1;
+}
+
+
+/* the radio form is styled here along with its heading and text */
+.radioForm{
+    border-style: solid;
+    border-width: 0.05rem;
+    margin-top: 4rem;
+    background-color: white;
+}
+h2{
+    font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color:#E4572E;
+    text-align: justify;
+    padding-left: 1rem;
+}
+form{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+

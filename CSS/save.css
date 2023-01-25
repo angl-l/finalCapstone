@@ -1,0 +1,92 @@
+/* the following is the code to style the contents of the blog page of a digital fitness journal */
+
+
+/* here we set the parameters to which the unit 'rem' should be relative to */
+\:root{
+    font-size: 10px;
+}
+
+/* here we style the background of the page */
+body{
+    background-image:url(background.png);
+    background-color: #E3F2FD;
+}
+
+/* the navigation bar is rearranged and styled to be centre-aligned */
+.navBar{
+    background-color: #0E0E52;
+    overflow: hidden;   
+    height: 10vh;
+    font-family: "Murecho", Arial, Helvetica, sans-serif;
+}
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.navBar a:hover {
+    background-color: #E4572E;
+    color: white;
+}
+#home{
+    margin-left: 30vw;
+}
+
+/* headings and text are styled */
+h2{
+    font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color:#E4572E;
+    padding-left: 2rem;
+    text-align: center;
+}
+
+p{
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    text-align: justify;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* footer is styled */
+footer{
+    background-color: #0E0E52;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 3rem;
+}
+
+/* contact form is styled here */
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical
+}
+  
+
+input[type=submit] {
+    background-color: #E4572E;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 2rem;
+    margin-bottom: 4rem;
+    display: inline;
+}
+  
+input[type=submit]:hover {
+    background-color: #E3F2FD;
+    color:black;
+}

@@ -1,0 +1,35 @@
+\:root{
+    font-size: 10px;
+}
+body{
+    background-color: #E3F2FD;
+}
+.navBar{
+    background-color: #0E0E52;
+    overflow: hidden;   
+    height: 10vh;
+    font-family: "Murecho", Arial, Helvetica, sans-serif;
+}
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.navBar a:hover {
+    background-color: #E4572E;
+    color: white;
+}
+#home{
+    margin-left: 30vw;
+}
+
+h1{
+    font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color:#E4572E;
+    text-align: center;
+}

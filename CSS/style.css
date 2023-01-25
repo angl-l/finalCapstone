@@ -1,0 +1,64 @@
+/* the following is the code to style the contents of the homepage of a digital fitness journal */
+
+/* here we set the parameters to which the unit 'rem' should be relative to */
+\:root{
+    font-size: 10px;
+}
+
+/* here we style the background of the page */
+body{
+    background-image:url(background.png);
+    background-color: #E3F2FD;
+}
+
+/* the navigation bar is rearranged and styled to be centre-aligned */
+.navBar{
+    background-color: #0E0E52;
+    overflow: hidden;   
+    height: 10vh;
+    font-family: "Murecho", Arial, Helvetica, sans-serif;
+}
+.navBar a {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+.navBar a:hover {
+    background-color: #E4572E;
+    color: white;
+}
+#home{
+    margin-left: 30vw;
+}
+
+/* here we style a block of html code to have a different background to the main page */
+.block1{
+    background-color: #E3F2FD;
+    border-style: solid;
+    border-width: 2px;
+    margin: 5vh 10vw;
+}
+
+/* here the headings and text are styled */
+h1{
+    font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    color:#E4572E;
+    text-align: center;
+}
+h2{
+    font-family:"Bebas Neue", Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    color:#0E0E52;
+    text-align: center;
+}
+.list{
+    font-family:"Roboto", Arial, Helvetica, sans-serif;
+    margin: 2vh 5vw 5vh 5vw;
+    text-align:justify;
+    font-size: 1rem;
+}

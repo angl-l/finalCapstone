@@ -1,0 +1,119 @@
+<!-- the following is the code creating the content for the blog page for a digital fitness journal -->
+
+<!DOCTYPE html>
+<html lang="eng">
+
+<!-- here we add metadata needed to style the content -->
+<head>
+    <link rel="stylesheet" type="text/css" href="CSS/blog.css"> 
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Murecho&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap">
+    <title>Digital Fitness Journal</title>
+
+</head>
+<body>
+    <!-- this is the navigation bar which links to other pages and corresponding html files -->
+    <nav class="navBar">
+        <a id="home" href="index.html">HOME</a>
+        <a href="tracker.html">TRACKER</a>
+        <a href="workoutsplit.html">WORKOUT SPLIT</a>
+        <a href="blog.html">BLOG</a>
+        <a id="blog" href="save.html">SAVED ARTICLES</a> 
+    </nav>
+    
+    <!-- here we add a heading and an external link -->
+    <h1>"CONSISTENCY WINS THE RACE"</h1>
+    
+
+    <!-- fitness images added here -->
+    <img src="img/fitness.jpg" alt="fitness image">
+    <img src="img/fitness2.jpg" alt="fitness image">
+    <img src="img/fitness3.jpg" alt="fitness image">
+    <img src="img/fitness4.jpg" alt="fitness image">
+    
+    
+    <!-- a skeleton for a blog post is added here -->
+    <section class="article">
+        <h3>BLOG POST #1</h3>
+        <p id="paragraph1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis eius veritatis possimus magni esse, ipsum vel consectetur, alias tenetur quis. Assumenda saepe aperiam vero cupiditate iusto perspiciatis provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perspiciatis quis ipsam sunt voluptates suscipit, alias omnis in possimus libero quam quos. Quidem unde eum accusamus eos eligendi, possimus ratione.</p>
+        <section class="commentList">
+            <ul id="unordered">
+            </ul>
+        </section>
+        <!-- here we add a comment section with a like and save button -->
+        <section class="comment">
+            <label>LEAVE A COMMENT</label>
+            <input type="text" id="commentBox" placeholder="Enter comment">
+            <button id="post" onclick="updateComments(this)">POST</button>
+            <button class="like" onclick="updateLike()">LIKE</button>
+        </section>
+        <button onclick="saveForLater('paragraph1')" class="save">SAVE FOR LATER</button>
+    </section>
+
+     <!-- a skeleton for a blog post is added here -->
+    <section class="article">
+        <h3>BLOG POST #2</h3>
+            <p id="paragraph2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis eius veritatis possimus magni esse, ipsum vel consectetur, alias tenetur quis. Assumenda saepe aperiam vero cupiditate iusto perspiciatis provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat perspiciatis quis ipsam sunt voluptates suscipit, alias omnis in possimus libero quam quos. Quidem unde eum accusamus eos eligendi, possimus ratione.</p>
+        <section class="commentList">
+            <ul id="unordered">
+            </ul>
+        </section>
+        <!-- here we add a comment section with a like and save button -->
+        <section class="comment">
+            <label>LEAVE A COMMENT</label>
+            <input type="text" id="commentBox" placeholder="Enter comment">
+            <button onclick="updateComments(this)" id="post">POST</button>
+            <button onclick="updateLike()" class="like">LIKE</button>
+        </section>
+        <button onclick="saveForLater('paragraph2')" class="save">SAVE FOR LATER</button>
+    </section>
+    
+ <!-- a skeleton for a blog post is added here -->
+    <section class="article">
+        <h3>BLOG POST #3</h3>
+        <p id="paragraph3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam reiciendis eius veritatis possimus magni esse, ipsum vel consectetur,
+            alias tenetur quis. Assumenda saepe aperiam vero cupiditate iusto perspiciatis provident. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Placeat perspiciatis quis ipsam sunt voluptates suscipit, alias omnis in possimus libero quam quos. Quidem unde eum accusamus eos eligendi, possimus ratione.</p>
+        <section class="commentList">
+            <ul id="unordered">
+            </ul>
+        </section>
+        <!-- here we add a comment section with a like and save button -->
+        <section class="comment">
+            <label>LEAVE A COMMENT</label>
+            <input type="text" id="commentBox" placeholder="Enter comment">
+            <button id="post" onclick="updateComments(this)">POST</button>
+            <button class="like" onclick="updateLike()">LIKE</button>
+        </section>
+        <button onclick="saveForLater('paragraph3')" class="save">SAVE FOR LATER</button>
+    </section>
+
+    <!-- here we create a footer with a contact form -->
+    <footer>
+        <h2>CONTACT ME</h2>
+        <form action="action_page.php">
+
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            <input type="submit" value="Submit">
+            
+        
+          </form>
+
+
+    </footer>
+
+
+
+
+
+
+<script src="JS/blog.js"></script>
+
+
+
+
+</body>
+</html>
