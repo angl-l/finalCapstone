@@ -49,7 +49,7 @@ for(i = 0; i < input.length; i++){
 ```
 
 ```HTML
-<--create a radio form for user interaction -->
+<!--create a radio form for user interaction -->
  <section class="radioForm">
     <h2>WHAT TYPE OF WORKOUT IS YOUR FAVOURITE TODAY?</h2>
     <form>
